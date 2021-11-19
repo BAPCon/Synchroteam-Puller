@@ -8,9 +8,6 @@ Easily export and convert Synchroteam jobs into Excel sheets with options to sel
 
 1. Access your Synchroteams API key and site name
 2. Download and unzip the repository, or select a specific version.
-3. The rest is done within the application application, saving you hours of manually pulling job data.
-  - 
-
 ### Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
@@ -19,21 +16,21 @@ This is an example of how to list things you need to use the software and how to
   pip install openpyxl
   ```
 * python 3.9+, if using a virtual environment
-```sh
-python -m venv --upgrade "your virtual environment path"
-```
+  ```sh
+  python -m venv --upgrade "your virtual environment path"
+  ```
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Download and unzip the repository, or select a specific version.
+2. Clone the repo if desired
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/BAPCon/Synchroteam-Puller.git
    ```
-3. Install NPM packages
+3. Install openpyxl
    ```sh
-   npm install
+   pip install openpyxl
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
+4. Execute the program, and enter your API/site combination when prompted
+   ```py
+   'sitename:apikey'
