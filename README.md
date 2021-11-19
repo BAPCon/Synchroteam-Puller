@@ -1,21 +1,27 @@
 
 <!-- ABOUT THE PROJECT -->
 # Synchroteam-Puller
-Convert Synchroteam jobs into Excel sheets with options to select native and custom fields.
+Easily export and convert Synchroteam jobs into Excel sheets with options to select native and custom fields.
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+1. Access your Synchroteams API key and site name
+2. Download and unzip the repository, or select a specific version.
+3. The rest is done within the application application, saving you hours of manually pulling job data.
+  - 
 
 ### Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
-* npm
+* openpyxl
   ```sh
-  npm install npm@latest -g
+  pip install openpyxl
   ```
+* python 3.9+, if using a virtual environment
+```sh
+python -m venv --upgrade "your virtual environment path"
+```
 
 ### Installation
 
