@@ -16,9 +16,7 @@ import base64
 from Helpers import DataPull
 
 absolutepath = os.path.abspath(__file__)
-fileDirectory = os.path.dirname(absolutepath)
-parentDirectory = os.path.dirname(fileDirectory)
-newPath = os.path.join(parentDirectory, 'STConnectorCLI') 
+newPath = os.path.dirname(absolutepath)
 sitename = ""
 apikey = ""
 def gen_file(wanted_fields):
