@@ -10,7 +10,6 @@ Easily export and convert Synchroteam jobs into Excel sheets with options to sel
 2. Download and unzip the repository, or select a specific version.
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
 * openpyxl
   ```sh
   pip install openpyxl
@@ -32,5 +31,5 @@ This is an example of how to list things you need to use the software and how to
    pip install openpyxl
    ```
 4. Execute the program, and enter your API/site combination when prompted
-   ```py
+   ```sh
    'sitename:apikey'
